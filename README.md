@@ -1,6 +1,6 @@
 # Django poll example app
 
-## Usage
+## First run
 
 Install Python >= 3.7
 
@@ -14,8 +14,16 @@ Run the migrations
 $ poetry run python manage.py migrate
 ```
 
-Create an admin user
+## Starting new
 
-````
-$ poetry run python manage.py createsuperuser
+Delete *all* the data from the database
+
+```
+$ poetry run python manage.py flush
+```
+
+Load the test admin user
+
+```
+$ poetry run python manage.py loaddate tests/auth.json
 ```
