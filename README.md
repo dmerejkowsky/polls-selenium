@@ -10,7 +10,7 @@ Run `poetry install`
 
 Run the migrations
 
-````
+```
 $ poetry run python manage.py migrate
 ```
 
