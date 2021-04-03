@@ -25,5 +25,5 @@ $ poetry run python manage.py flush
 Load the test admin user
 
 ```
-$ poetry run python manage.py loaddate tests/auth.json
+$ poetry run python manage.py loaddata tests/auth.json
 ```
