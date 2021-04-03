@@ -28,6 +28,8 @@ class ResultsView(generic.DetailView):
 
 
 def reset(request):
+    Question.objects.all().delete()
+    Choice.objects.all().delete()
     return render(request, "polls/reset.html")
 
 
