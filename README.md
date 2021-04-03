@@ -1,6 +1,6 @@
 # Django poll example app
 
-## First run
+## Setup
 
 Install Python >= 3.7
 
@@ -14,16 +14,12 @@ Run the migrations
 $ poetry run python manage.py migrate
 ```
 
-## Starting new
-
-Delete *all* the data from the database
+## Running the server
 
 ```
-$ poetry run python manage.py flush
+$ poetry run python manage.py runserver
 ```
 
-Load the test admin user
+## Resetting the database
 
-```
-$ poetry run python manage.py loaddata tests/auth.json
-```
+Visit the `polls/reset` URL
