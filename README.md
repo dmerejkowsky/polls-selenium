@@ -1,6 +1,10 @@
 # Django poll example app
 
+
+
 ## Setup
+
+Install Google Chrome
 
 Install Python >= 3.7
 
@@ -68,3 +72,10 @@ You should get:
 ## Resetting the database
 
 Visit the `polls/reset` URL
+
+## Instructions
+
+Try and write a test that
+* resets the DB
+* creates a poll
+* votes one on answer
