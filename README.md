@@ -4,7 +4,8 @@
 
 Install Python >= 3.7
 
-Install Poetry
+Install [Poetry](https://python-poetry.org/)
+
 
 Run `poetry install`
 
