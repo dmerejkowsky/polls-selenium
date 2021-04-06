@@ -79,3 +79,5 @@ Try and write a test that
 * resets the DB
 * creates a poll
 * votes one on answer
+
+Make a fork of this repo and push your code there
